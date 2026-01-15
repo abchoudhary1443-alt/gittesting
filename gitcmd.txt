@@ -1,0 +1,111 @@
+  374  apt install git 
+  375  git --version
+  376  git config --global user.name "Dev"
+  377  git config --global user.email "abid.pakrasool@gmail.com"
+  378  mkdir git-practice
+  379  cd git-practice
+  381  mv /root/git-practice/ /home/
+  385  mv git-practice/ /home/
+  389  mv /home/git-practice/ /
+  391  cd git-practice/
+  393  https://github.com/umair-nazir-work/easybuy.git
+  397  git@github.com:umair-nazir-work/easybuy.git
+  400  git config --global --edit 
+  401  git init
+  402  git status
+  405  git status
+  406  git add -A
+  407  git status
+  408  git commit -m "added testing perpes"
+  409  git satus 
+  410  git status
+  413  git status
+  415  git status
+  416  cd /git-practice/
+  424  git status
+  425  git checkout -f
+  426  git status
+  428  git log 
+  429  git log -p -2
+  430  git diff
+  432  git diff
+  433  git diff --staged 
+  434  git status
+  435  git log 
+  436  git log -p -2
+  437  git status -s
+  438  git checkout 
+  439  git add .
+  440  git status 
+  441  cd /git-practice/
+  444  git checkout -f
+  447  git status
+  448  git add
+  449  git add >
+  450  git add .
+  451  git status
+  453  git checkout -f
+  454  git status
+  456  git giff
+  457  git diff
+  458  git diff --staged
+  459  git commit -m "added new content" 
+  460  git diff --staged
+  461  git log -p -2
+  462  git status
+  463  git status -s
+  465  git add .
+  466  git status
+  468  git rm --cached abid.php 
+  469  git status
+  470  git add .
+  472  git rm --cached abid.php 
+  474  git rm abid.php 
+  476  history |grep git
+  478  git rm -f abid.php 
+  736  git status
+  740  cd git-practice/
+  741  git status
+  743  git log -1
+  744  git revert 3fe4a865967313a74f725ed9e2155e2a01ca0a67
+  749  git status
+  750  git revert 3fe4a865967313a74f725ed9e2155e2a01ca0a67
+  751  git log -p -1
+  752  git revert 98fca54242f3e011a8e5784ab75943d63780da99
+  753  git status
+  754  git add abid.php
+  755  git status
+  759  git status
+  762  git status
+  763  git add .
+  764  git status
+  765  cd /git-practice/
+  766  git status
+  767  git commit -m "abid.ph"
+  768  git status
+  770  git log -p -1
+  773  git status
+  774  git restore admin.php
+  775  git status
+  778  git status
+  779  git add test 
+  780  git status
+  782  git coment -m " new file add test"
+  783  git commit  -m " new file add test"
+  784  git status
+  787  git status
+  789  git add test
+  790  git status
+  791  git restore --staged test
+  792  git status
+  793  git commit  -m " new file add test"
+  794  git add test
+  795  git status
+  796  git commit -m "add test"
+  797  git status
+  798  git branch 
+  799  cd /git-practice/
+  800  git branch 
+  801  git checkout master
+  802  git branch 
+  803  history |grep git >> gitcmd.txt
