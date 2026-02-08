@@ -1,0 +1,63 @@
+    1  service jenkins start
+    2  [200~sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
+    3  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]"   https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+    4  sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
+    5  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]"   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+    6  sudo apt update
+    7  'apt list --upgradable
+    8  apt list --upgradable
+    9  service status jenkins
+   10  service start jenkins
+   11  sudo systemctl start jenkins
+   12  sudo systemctl enable jenkins
+   13  systemctl enable jenkins
+   14  sudo systemctl start jenkins
+   15  sudo systemctl status jenkins
+   16  systemctl status jenkins
+   17  sudo systemctl status jenkins
+   18  sudo journalctl -u jenkins.service --no-pager
+   19  sudo cat /var/log/jenkins/jenkins.log
+   20  sudo netstat -tlnp | grep :8080
+   21  java -version
+   22  sudo journalctl -u jenkins.service -n 50 --no-pager
+   23  # Check if Java is installed at all
+   24  java -version
+   25  # List available Java installations
+   26  ls /usr/lib/jvm/
+   27  # Check Java alternatives
+   28  sudo update-alternatives --config java
+   29  # Install Java 17 (both JRE and JDK for full compatibility)
+   30  sudo apt update
+   31  sudo apt install openjdk-17-jdk openjdk-17-jre -y
+   32  # Verify installation
+   33  java -version
+   34  # Edit Jenkins configuration
+   35  sudo nano /etc/default/jenkins
+   36  vim /etc/default/jenkins
+   37  apt install jenkins
+   38  service jenkins status
+   39  service jenkins start
+   40  service jenkins status
+   41  cat /var/lib/jenkins/secrets/initialAdminPassword
+   42  mkdir GITProject
+   43  cd GITProject/
+   44  git clone git@github.com:abchoudhary1443-alt/gittesting.git
+   45  ls ~/.ssh/
+   46  ssh-keygen -t ed25519 -C "test@example.com"
+   47  ssh-keygen -t ed25519 -C "your_email@example.com"
+   48  cat ~/.ssh/id_ed25519.pub
+   49  git clone git@github.com:abchoudhary1443-alt/gittesting.git
+   50  ls
+   51  cd gittesting/
+   52  ls
+   53  ll
+   54  git branch 
+   55  git branch new
+   56  git branch 
+   57  git branch new 
+   58  git checkout neq
+   59  git checkout new
+   60  git branch 
+   61  touche hister.txt
+   62  touch hister.txt
+   63  history >> hister.txt 
